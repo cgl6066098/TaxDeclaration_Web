@@ -1,4 +1,10 @@
-# 只排除系统文件和编译缓存
+# 只忽略截图文件
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
 
 # Python 编译缓存
 __pycache__/
@@ -6,13 +12,16 @@ __pycache__/
 *$py.class
 *.so
 
-# Python 虚拟环境（如果有）
+# Python 虚拟环境
 venv/
 ENV/
 env/
 
-# 浏览器配置目录（包含登录状态，不上传）
+# 浏览器配置目录（包含登录状态）
 browser_profile/
 
-# 大型日志文件（可选）
+# 大型日志文件
 *.log
+
+# IDE
+.idea/

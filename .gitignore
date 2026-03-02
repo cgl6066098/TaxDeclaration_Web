@@ -25,3 +25,10 @@ browser_profile/
 
 # IDE
 .idea/
+
+# PyInstaller 打包临时文件
+build/
+*.spec
+
+# Excel 临时文件
+~$*.xlsx
